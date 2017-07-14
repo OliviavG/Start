@@ -2,7 +2,7 @@ body{
 	width:100%;
 	margin: 0 auto;
 	font-family: 'Muli', Arial, sans-serif;
-	background-color: white;
+	background-color: #f6f6f6;
 	
 }
 h1{
@@ -44,9 +44,57 @@ nav{
 	text-align: center;
 	font-size: 20px
 }
+button{
+	background:#ff1d8e;
+	font-family:'Raleway';
+}
+//* code for same size 
+summary{
+	width:200px;
+    height:150px;
+    position:relative;
+    display:inline-block;
+    overflow:hidden;
+}
+.img{
+	position:relative;
+	float: left;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    min-width:100%;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size: cover; 
+}*// 
 
 summary{
-	margin:10px 200px 10px 200px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: 90px;
+	height: auto;
+	max-width: auto;
+	overflow-y: hidden;
+	overflow-x:auto;
+	white-space:nowrap;
+	padding: 2% 10%;
+}
+
+.img{ 
+	display: inline-block;
+	float:right;
+	margin: 0px;
+	padding: 0px;
+}
+.clearfix0{
+	clear:both;
+}
+section{
+	margin:2% 10%;
 	font-weight:bold;
 	font-size: 20px
 }
@@ -57,11 +105,19 @@ h2{
 }
 
 article{
-	margin: 10px 200px 10px 200px;
+	margin: 2% 10%;
+}
+.subscribe{
+	background:#ff6969;
+	color:white;
+	font-size:20px;
+	background: url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/watermellon%20background.jpg");
+	height:150%;
 }
 div{
 	width:31.3%;
 }
+
 .div1{
 	float:left;
 	display:block;
@@ -76,7 +132,7 @@ div{
 .div3{
 	float:left;
 	display:block;
-	padding: 30px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 }
 .clearfix1{
 	clear:both;
@@ -85,7 +141,7 @@ div{
 figure{
 	display: block;
 	position:right;
-	margin:20px 0 0 50px;
+	
 	
 }
 li a{
@@ -94,8 +150,16 @@ li a{
 	padding:10px 10px 10px 10px;
 	border-color: blue
 }
+.cities{
+
+}
+.center{
+	position:center;
+	padding: 0% 10% 0% 30%;
+}
 footer{
 	padding:30px 10px 10px 10px;
+	background:#ff6969;
 }
 p{
 	padding-top: 10px
