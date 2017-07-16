@@ -39,16 +39,19 @@ nav{
 	background: #11051b;
 	color: #ffffff;
 	font-family: 'Raleway';
-	padding:10px;
+	padding:0.5%;
 	font-weight:bold;
 	text-align: center;
 	font-size: 20px
+	
 }
 button{
-	background:#ff1d8e;
+	background:#11051b;
 	font-family:'Raleway';
+	color: white;
+	font-size: 20px
 }
-//* code for same size 
+//* code for same size pictures - now fixed with pictures themself
 summary{
 	width:200px;
     height:150px;
@@ -70,26 +73,37 @@ summary{
     background-size: cover; 
 }*// 
 
+/* Issue here is that the pictures stay true to size for smaller devices - they need to become smaller*/ 
 summary{
 	display: block;
-	margin: 0px;
-	padding: 0px;
+	width: 100%;
+	margin: 0 auto;
+}
+.img{
+	float:left;
+	width:16.5%;
+	margin:0 auto;
+
+}
+
+//* Second float with issue underneath each other
+	margin:2% 10%;
 	position: relative;
 	top: 90px;
-	height: auto;
-	max-width: auto;
 	overflow-y: hidden;
 	overflow-x:auto;
 	white-space:nowrap;
-	padding: 2% 10%;
+	width:13.2%;
+	max-height: 350px;
 }
 
 .img{ 
-	display: inline-block;
+	display: block;
 	float:right;
 	margin: 0px;
 	padding: 0px;
 }
+*//
 .clearfix0{
 	clear:both;
 }
@@ -114,7 +128,8 @@ article{
 	background: url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/watermellon%20background.jpg");
 	height:150%;
 }
-div{
+/* Outstanding issue is to get this code to become more like a article + sidebar */
+.textfloat{
 	width:31.3%;
 }
 
@@ -141,8 +156,15 @@ div{
 figure{
 	display: block;
 	position:right;
+	padding:2%;
+	font-weight: bold;
 	
 	
+}
+@media (min-width: 1200px){
+.market{
+	width: 100%; 
+	position: ;}
 }
 li a{
 	display:inline-block;
@@ -155,15 +177,42 @@ li a{
 }
 .center{
 	position:center;
-	padding: 0% 10% 0% 30%;
+	padding: 0% 0% 0% 35%;
 }
+/* Outstanding work here is that I still need to style the bottom of the page is responsive https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 footer{
 	padding:30px 10px 10px 10px;
 	background:#ff6969;
 }
+.footPolicy{
+	position:center;
+	padding: 0% 0% 0% 40%;
+	font-size: 20px;
+
+}
+.footp{
+	position:center;
+	padding: 2% 10% 0% 20%;
+	font-size: 20px;
+
+}
+span{
+	padding:10px;
+}
 p{
 	padding-top: 10px
 }
+.subtitle{
+	font-size: 20px;
+}
 img{
 	padding-top: 10px;
+	size: 80%;
+}
+ol{
+	list-style-type: upper-roman ;
+}
+.Recipes{
+	padding: 0% 0% 0% 0%;
+	font-weight: bold;
 }
