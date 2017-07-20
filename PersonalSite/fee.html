@@ -5,18 +5,23 @@
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Muli|Raleway" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> A FEE </title>
 	</head>
 
 	<body>
-		<header> 
+		<div class="container-fluid">
+		<header>
+			<div class="row"> 
 			<h1> A FEE 
-				<p class="subtitle"> Easy does it! Ready in a heartbeat</p>
+				<p class="subtitle"> Mains with twist</p>
 
 			</h1>
-
+			</div>
+			<div class="row">
 			<nav>
 				<ul>
 					<li> 
@@ -30,16 +35,19 @@
 					</li>
 				</ul>
 			</nav>
+			</div>
 
 		</header>
 
 		<section>
+			<div class="row">
 			<h2> About Fee </h2>
-				<p> Jack, my awesome roommate, is someone I would describe as extremely efficient. With food she runs by the formula max pleasure equals max taste for min effort. I don't think I know anyone that is better at figuring out ways to minimize effort in the kitchen if it is not needed. That doesn't mean that she will not cook up recipes that require effort, but she will only do that to spoil her friends if the occasion is right. Anyways, enough said. Find out what recipes & delivery tips classify her. </p>
+				<p> Fee, my awesome roommate, is someone I would describe as extremely efficient. With food she runs by the formula max pleasure equals max taste for min effort. I don't think I know anyone that is better at figuring out ways to minimize effort in the kitchen if it is not needed. That doesn't mean that she will not cook up recipes that require effort, but she will only do that to spoil her friends if the occasion is right. Anyways, enough said. Find out what recipes & delivery tips classify her. </p>
+			</div>
 		</section>
 
 		<article>
-			<div> 
+			<div class="row"> 
 				<h2> Oven dish with Lamb sausages and lots of veggies </h2>
 
 				<p> This dish is one of our all time favorites to cook at home because it is just really easy to make and very tasty </p>
@@ -63,7 +71,7 @@
 					<li> +/- 12 small tasty tomatoes (Tasty Toms)</li>
 					<li> 1 Big piece of Garlic with enough 4 cloves per person (can be more if you really like it) </li>
 					<li> Fresh Rozemary Twigs </li>
-					<li> Olive oil </li>
+					<li> 1 Cup of Olive oil (use calculator at the bottom of the page to calculate) </li>
 					<li> Pepper & Salt </li>
 				</ol>
 
@@ -72,21 +80,52 @@
 				<p> After you are done, put the entire dish into the oven (which should be now be 180 degrees) and grab yourself a glass of nice red wine while you wait for 45 minutes till your meal is ready </p>
 			</div>
 
-			<aside>
-				<p> </p>
-			</aside> 
+			<p> </p>
+			<p> </p>
+
+			<div class="row">
+				<h2> Calculate from Cups to milliliter </h2>
+
+				<div id="answer"> </div>
+				<input type="text" id="multiplier"> 
+					<button onclick="multiply()"> Convert</button>
+				</div> 
+			</div> 
 		</article>
 
 
 		<footer>
+			<div class="row">
 			<div class="footPolicy">
-				<span> Contact </span>
-				<span> Policies </span>
-				<span> Friends </span>
+
+				<div class="col-sm-4">
+					<p> </p>
+				</div>
+
+				<div class="col-sm-4">
+					<span> Contact </span>
+					<span> Policies </span>
+					<span> Friends </span>
+				</div>
+
+				<div class="col-sm-4">
+					<p> </p>
+				</div>
+			<div class="row">
+				<div class="col-sm-2">
+					<p> </p>
+				</div>
+				<div class="col-sm-8">
+					<p class="footp"> FRIENDS & RECIPES 2017. ALL RIGHTS RESERVED. TO LEARN MORE ABOUT OUR POLICIES TAB ABOVE. </p>
+				</div>
+				<div class="col-sm-2">
+					<p> </p>
+				</div>
 			</div>
-			
-			<p class="footp"> FRIENDS & RECIPES 2017. ALL RIGHTS RESERVED. TO LEARN MORE ABOUT OUR POLICIES TAB ABOVE. </p>
 		</footer>
+		</div>
+		<script src="script.js"> </script>
 	</body>
 
 </html>
+

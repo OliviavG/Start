@@ -46,7 +46,7 @@ nav{
 	
 }
 button{
-	background:#11051b;
+	background:#ff6969;
 	font-family:'Raleway';
 	color: white;
 	font-size: 20px
@@ -75,10 +75,33 @@ summary{
 
 /* Issue here is that the pictures stay true to size for smaller devices - they need to become smaller*/ 
 summary{
-	display: block;
-	width: 100%;
-	margin: 0 auto;
+	height: 30em; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: 'Muli', Arial, sans-serif;
+
 }
+.Blueberry{
+	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/banner%20Olivia%20Blueberry-Coconut-Ice-Cream.jpg");
+}
+.avosla{
+	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/banner%20avosla.jpg");
+}
+.Chia{
+	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/banner%20Olivia%20Chia-Pudding-Breakfast-Jar-6-300x310.jpg"); 
+}
+.sla{
+	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/banner%20sla.jpg"); 
+}
+.vegan{
+	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/banner%20Olivia%20vegan-blueberry-cheesecake-7-300x310.jpg"); 
+}
+.tortilla{
+	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/banner%20tortilla.jpg"); 
+}
+
+
 .img{
 	float:left;
 	width:16.5%;
@@ -110,7 +133,8 @@ summary{
 section{
 	margin:2% 10%;
 	font-weight:bold;
-	font-size: 20px
+	font-size: 30px
+	font-family:'Muli', Arial, sans-serif;
 }
 h2{
 	font-weight:italic;
@@ -126,9 +150,14 @@ article{
 	color:white;
 	font-size:20px;
 	background: url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/watermellon%20background.jpg");
-	height:150%;
+	position:contain;
+
+	
 }
-/* Outstanding issue is to get this code to become more like a article + sidebar */
+.paddingcenter{
+	padding: 5px;
+}
+/* Outstanding issue is to get this code to become more like a article + sidebar - Now fixed with bootstrap
 .textfloat{
 	width:31.3%;
 }
@@ -152,6 +181,7 @@ article{
 .clearfix1{
 	clear:both;
 }
+*/
 
 figure{
 	display: block;
@@ -161,11 +191,21 @@ figure{
 	
 	
 }
+/* fixed with bootrap 
 @media (min-width: 1200px){
+	*/
 .market{
-	width: 100%; 
-	position: ;}
+	height: 100em; 
+	background-color: transparent;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color:white;
+	}
+.picturesize{
+	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/Olivia%20sat-market%20-%20kopie.jpg"); 
 }
+
 li a{
 	display:inline-block;
 	color:white;
@@ -181,33 +221,27 @@ li a{
 }
 /* Outstanding work here is that I still need to style the bottom of the page is responsive https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 footer{
-	padding:30px 10px 10px 10px;
+	
 	background:#ff6969;
 }
+ 
 .footPolicy{
-	position:center;
-	padding: 0% 0% 0% 40%;
-	font-size: 20px;
-
+	text-align: center;
 }
+/* Styling previous to Bootstrap
 .footp{
 	position:center;
 	padding: 2% 10% 0% 20%;
 	font-size: 20px;
-
-}
+} 
 span{
 	padding:10px;
-}
+}*/ 
 p{
 	padding-top: 10px
 }
 .subtitle{
 	font-size: 20px;
-}
-img{
-	padding-top: 10px;
-	size: 80%;
 }
 ol{
 	list-style-type: upper-roman ;
