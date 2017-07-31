@@ -83,22 +83,22 @@ summary{
 
 }
 .Blueberry{
-	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/banner%20Olivia%20Blueberry-Coconut-Ice-Cream.jpg");
+	background-image:url("Images/banner%20Olivia%20Blueberry-Coconut-Ice-Cream.jpg");
 }
 .avosla{
-	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/banner%20avosla.jpg");
+	background-image:url("Images/banner%20avosla.jpg");
 }
 .Chia{
-	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/banner%20Olivia%20Chia-Pudding-Breakfast-Jar-6-300x310.jpg"); 
+	background-image:url("Images/banner%20Olivia%20Chia-Pudding-Breakfast-Jar-6-300x310.jpg"); 
 }
 .sla{
-	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/banner%20sla.jpg"); 
+	background-image:url("Images/banner%20sla.jpg"); 
 }
 .vegan{
-	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/banner%20Olivia%20vegan-blueberry-cheesecake-7-300x310.jpg"); 
+	background-image:url("Images/banner%20Olivia%20vegan-blueberry-cheesecake-7-300x310.jpg"); 
 }
 .tortilla{
-	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/banner%20tortilla.jpg"); 
+	background-image:url("Images/banner%20tortilla.jpg"); 
 }
 
 
@@ -149,7 +149,7 @@ article{
 	background:#ff6969;
 	color:white;
 	font-size:20px;
-	background: url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/watermellon%20background.jpg");
+	background: url("Images/watermellon%20background.jpg");
 	position:contain;
 
 	
@@ -203,7 +203,7 @@ figure{
 	color:white;
 	}
 .picturesize{
-	background-image:url("file:///C:/Users/Tim/start/PersonalSite/Images%20PW/Olivia%20sat-market%20-%20kopie.jpg"); 
+	background-image:url("Images/Olivia%20sat-market%20-%20kopie.jpg"); 
 }
 
 li a{
