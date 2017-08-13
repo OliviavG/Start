@@ -1,0 +1,52 @@
+$my-color: #e5e5e5; 
+$my-position: center; 
+$my-background-color: #191919;
+
+
+@mixin font-face {
+	font-family: "Samplino";
+	src: url("fonts/Samplino.eot?") format("eot"),
+		 url("fonts/Samplino.woff2") format("woff2"),
+		 url("fonts/Samplino.woff") format("woff"),
+		 url("fonts/Samplino.ttf") format("truetype"),
+		 url("fonts/Samplino.svg#Samplino") format("svg");
+}
+
+
+body{
+	
+	margin: 0 auto;
+	text-position: $my-position;
+	background: url("Images/Leonardo-da-Vinci background1 1920x1200.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-color: $my-background-color;
+	}
+
+	header{
+		
+		h1{
+			background-color: black;
+			color: white;
+			text-align: center;
+			@include font-face; 
+
+			span{
+				text-align: left;
+			}
+			button{
+				text-align: right;
+			
+			}
+
+		h1:hover {
+			background-color: pink;  
+		}
+		h1{
+			transition: background-color 4s linear; 
+		}
+	}
+			
+}
+@import 'partial';

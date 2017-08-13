@@ -1,0 +1,19 @@
+section{
+		.text1{
+			background-color: $my-background-color;
+			color: $my-color;
+			@include font-face; 
+		}
+		.text2{
+			@extend .text1;
+		}
+	}
+
+footer{
+		position: relative;
+
+		span{
+			font-size: 25px;
+		}
+	}
+
