@@ -17,8 +17,8 @@ header h1 {
     text-align: left; }
   header h1 button {
     text-align: right; }
-  header h1 h1:hover {
-    background-color: pink; }
+  header h1:hover {
+    background-color: #e5e5e5; }
   header h1 h1 {
     transition: background-color 4s linear; }
 
